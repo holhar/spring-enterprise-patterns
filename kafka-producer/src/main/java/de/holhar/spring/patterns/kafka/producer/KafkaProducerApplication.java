@@ -1,13 +1,12 @@
-package de.holhar.spring.enterprisepatterns;
+package de.holhar.spring.patterns.kafka.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringEnterprisePatternsApplication {
+public class KafkaProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringEnterprisePatternsApplication.class, args);
+        SpringApplication.run(KafkaProducerApplication.class, args);
     }
-
 }
