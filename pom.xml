@@ -5,6 +5,7 @@
     <modules>
         <module>kafka-producer</module>
         <module>kafka-consumer</module>
+        <module>redis-sessioncache</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
