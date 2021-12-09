@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd_1="http://data.movies.ws.holhar.de"
+           targetNamespace="http://data.movies.ws.holhar.de"
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+    <xs:complexType name="UID">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Movie">
+            <xs:sequence>
+                <xs:element name="id" type="xsd_1:UID"/>
+                <xs:element name="title" type="xs:string"/>
+                <xs:element name="description" minOccurs="0" type="xs:string"/>
+                <xs:element name="director" type="xs:string"/>
+                <xs:element name="screenwriter" type="xs:string"/>
+                <xs:element name="genre" type="xsd_1:Genre"/>
+                <xs:element name="cast" type="xsd_1:CastMember" maxOccurs="unbounded"/>
+            </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="CastMember">
+        <xs:sequence>
+            <xs:element name="actor" type="xs:string"/>
+            <xs:element name="character" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="Genre">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ACTION"/>
+            <xs:enumeration value="COMEDY"/>
+            <xs:enumeration value="DRAMA"/>
+            <xs:enumeration value="HORROR"/>
+            <xs:enumeration value="ROMANCE"/>
+            <xs:enumeration value="THRILLER"/>
+            <xs:enumeration value="SCIENCE FICTION"/>
+            <xs:enumeration value="MISC"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

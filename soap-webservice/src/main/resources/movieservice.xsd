@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsd_1="http://data.movies.ws.holhar.de"
+            targetNamespace="http://movies.ws.holhar.de"
+            elementFormDefault="unqualified" attributeFormDefault="unqualified">
+
+    <xsd:import namespace="http://data.movies.ws.holhar.de" schemaLocation="movie.xsd"/>
+
+    <xsd:element name="MovieRequest" type="xsd_1:UID"/>
+    <xsd:element name="MovieResponse" type="xsd_1:Movie"/>
+</xsd:schema>
