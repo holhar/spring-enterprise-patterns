@@ -8,6 +8,7 @@
         <module>redis-sessioncache</module>
         <module>jaxb-databinding</module>
         <module>soap-webservice</module>
+        <module>keycloak</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -56,6 +57,8 @@
                 <version>2.13.0</version>
             </dependency>
 
+            <!-- soap-webservice START -->
+            <!-- jaxb-databinding START -->
             <dependency>
                 <groupId>javax.xml.bind</groupId>
                 <artifactId>jaxb-api</artifactId>
@@ -66,7 +69,7 @@
                 <artifactId>jaxb2-basics</artifactId>
                 <version>0.12.0</version>
             </dependency>
-
+            <!-- jaxb-databinding END -->
 
             <!-- start of jaxb -->
             <!-- jaxb got removed with java 11 modules -->
@@ -98,6 +101,22 @@
                 <artifactId>jakarta.activation</artifactId>
                 <version>1.2.1</version>
             </dependency>
+            <!-- soap-webservice END -->
+
+            <!-- keycloak-protection START -->
+            <dependency>
+                <groupId>org.keycloak</groupId>
+                <artifactId>keycloak-spring-boot-starter</artifactId>
+                <version>11.0.3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.keycloak.bom</groupId>
+                <artifactId>keycloak-adapter-bom</artifactId>
+                <version>11.0.3</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- keycloak-protection END -->
         </dependencies>
     </dependencyManagement>
 
