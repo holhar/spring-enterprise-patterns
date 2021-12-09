@@ -1,0 +1,26 @@
+<jxb:bindings
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+        xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+        jxb:extensionBindingPrefixes="xjc"
+        version="2.1">
+
+    <jxb:globalBindings>
+        <xjc:javaType
+                name="java.lang.String"
+                xmlType="xs:string"
+                adapter="de.holhar.spring.jaxbdatabinding.xml.adapter.CustomNormalizedStringAdapter"/>
+    </jxb:globalBindings>
+    <!--
+    <jxb:bindings schemaLocation="movie.xsd">
+        <jxb:schemaBindings>
+            <jxb:nameXmlTransform>
+                <jxb:elementName suffix="Config"/>
+                <jxb:typeName suffix="Config"/>
+                <jxb:anonymousTypeName suffix="Config"/>
+            </jxb:nameXmlTransform>
+        </jxb:schemaBindings>
+    </jxb:bindings>
+    -->
+
+</jxb:bindings>
