@@ -10,6 +10,7 @@
         <module>soap-webservice</module>
         <module>keycloak</module>
         <module>mysql-liquibase</module>
+        <module>mtls-httpclient</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -60,11 +61,6 @@
 
             <!-- soap-webservice START -->
             <!-- jaxb-databinding START -->
-            <dependency>
-                <groupId>javax.xml.bind</groupId>
-                <artifactId>jaxb-api</artifactId>
-                <version>2.3.0</version>
-            </dependency>
             <dependency>
                 <groupId>org.jvnet.jaxb2_commons</groupId>
                 <artifactId>jaxb2-basics</artifactId>
@@ -138,6 +134,14 @@
                 <version>2.0.202</version>
             </dependency>
             <!-- mysql / liquibase END -->
+
+            <!-- mTLS START -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.13</version>
+            </dependency>
+            <!-- mTLS END -->
         </dependencies>
     </dependencyManagement>
 
