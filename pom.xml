@@ -9,6 +9,7 @@
         <module>jaxb-databinding</module>
         <module>soap-webservice</module>
         <module>keycloak</module>
+        <module>mysql-liquibase</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -117,6 +118,26 @@
                 <scope>import</scope>
             </dependency>
             <!-- keycloak-protection END -->
+
+            <!-- mysql / liquibase START -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.19</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.liquibase</groupId>
+                <artifactId>liquibase-core</artifactId>
+                <version>3.8.5</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>2.0.202</version>
+            </dependency>
+            <!-- mysql / liquibase END -->
         </dependencies>
     </dependencyManagement>
 
