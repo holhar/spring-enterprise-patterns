@@ -1,0 +1,23 @@
+server:
+  port: 8886
+
+app:
+  # private key for signing tokens
+  private-key-resource: "file:src/main/resources/private.key"
+
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          # our authorization server
+          mock-idp:
+            token-uri: http://localhost:8080/token
+        registration:
+          # our client
+          ourclient:
+            authorization-grant-type: client_credentials
+            client-id: ourclientid
+            provider: mock-idp
+            scope:
+              - my-custom-scope

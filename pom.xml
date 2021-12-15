@@ -11,6 +11,7 @@
         <module>keycloak</module>
         <module>mysql-liquibase</module>
         <module>mtls-httpclient</module>
+        <module>oauth2-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -142,6 +143,16 @@
                 <version>4.5.13</version>
             </dependency>
             <!-- mTLS END -->
+
+            <!-- OAuth 2 START -->
+
+            <!-- OAuth 2 END -->
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.22</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
