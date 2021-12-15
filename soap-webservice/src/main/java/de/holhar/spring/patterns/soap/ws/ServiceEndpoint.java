@@ -1,4 +1,4 @@
-package de.holhar.spring.soap.ws;
+package de.holhar.spring.patterns.soap.ws;
 
 import org.springframework.ws.context.MessageContext;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
@@ -8,7 +8,7 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 import javax.xml.bind.JAXBElement;
 
-import static de.holhar.spring.soap.ws.config.WebServiceConfig.TARGET_NAMESPACE;
+import static de.holhar.spring.patterns.soap.ws.config.WebServiceConfig.TARGET_NAMESPACE;
 
 @Endpoint
 public class ServiceEndpoint {

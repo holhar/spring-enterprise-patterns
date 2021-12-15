@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>enterprise-patterns</artifactId>
-        <groupId>de.holhar.spring</groupId>
+        <groupId>de.holhar.spring.patterns</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -82,7 +82,7 @@
                             </sources>
                             <outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
                             <clearOutputDir>false</clearOutputDir>
-                            <packageName>de.holhar.spring.soap.ws</packageName>
+                            <packageName>de.holhar.spring.patterns.soap.ws</packageName>
                             <arguments>
                                 <argument>-Xequals</argument>
                                 <argument>-XhashCode</argument>

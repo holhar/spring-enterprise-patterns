@@ -1,4 +1,4 @@
-package de.holhar.spring.keycloak;
+package de.holhar.spring.patterns.keycloak;
 
 import org.keycloak.adapters.springsecurity.account.KeycloakRole;
 import org.keycloak.adapters.springsecurity.authentication.KeycloakAuthenticationProvider;

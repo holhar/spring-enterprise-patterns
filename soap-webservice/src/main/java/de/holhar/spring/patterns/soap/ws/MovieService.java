@@ -1,4 +1,4 @@
-package de.holhar.spring.soap.ws;
+package de.holhar.spring.patterns.soap.ws;
 
 import org.springframework.stereotype.Service;
 

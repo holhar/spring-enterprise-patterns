@@ -1,6 +1,6 @@
-package de.holhar.spring.soap.ws.config;
+package de.holhar.spring.patterns.soap.ws.config;
 
-import de.holhar.spring.soap.ws.ObjectFactory;
+import de.holhar.spring.patterns.soap.ws.ObjectFactory;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;

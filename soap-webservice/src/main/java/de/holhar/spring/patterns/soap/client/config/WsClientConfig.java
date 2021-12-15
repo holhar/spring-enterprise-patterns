@@ -1,8 +1,7 @@
-package de.holhar.spring.soap.client.config;
+package de.holhar.spring.patterns.soap.client.config;
 
-import de.holhar.spring.soap.client.SOAPConnector;
-import de.holhar.spring.soap.ws.ObjectFactory;
-import org.springframework.beans.factory.annotation.Value;
+import de.holhar.spring.patterns.soap.client.SOAPConnector;
+import de.holhar.spring.patterns.soap.ws.ObjectFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;

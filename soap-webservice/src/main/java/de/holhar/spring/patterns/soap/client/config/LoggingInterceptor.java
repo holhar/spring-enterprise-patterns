@@ -1,8 +1,7 @@
-package de.holhar.spring.soap.client.config;
+package de.holhar.spring.patterns.soap.client.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.ws.WebServiceMessage;
 import org.springframework.ws.client.support.interceptor.ClientInterceptor;

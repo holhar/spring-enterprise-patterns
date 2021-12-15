@@ -1,4 +1,4 @@
-package de.holhar.spring.jaxbdatabinding.xml.adapter;
+package de.holhar.spring.patterns.jaxbdatabinding.xml.adapter;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 

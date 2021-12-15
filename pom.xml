@@ -18,7 +18,7 @@
         <version>2.6.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>de.holhar.spring</groupId>
+    <groupId>de.holhar.spring.patterns</groupId>
     <artifactId>enterprise-patterns</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>

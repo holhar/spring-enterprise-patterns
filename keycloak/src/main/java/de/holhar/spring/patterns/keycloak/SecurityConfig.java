@@ -1,4 +1,4 @@
-package de.holhar.spring.keycloak;
+package de.holhar.spring.patterns.keycloak;
 
 import org.keycloak.adapters.KeycloakConfigResolver;
 import org.keycloak.adapters.springboot.KeycloakSpringBootConfigResolver;

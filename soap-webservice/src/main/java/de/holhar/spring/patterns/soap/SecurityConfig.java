@@ -1,4 +1,4 @@
-package de.holhar.spring.soap;
+package de.holhar.spring.patterns.soap;
 
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;

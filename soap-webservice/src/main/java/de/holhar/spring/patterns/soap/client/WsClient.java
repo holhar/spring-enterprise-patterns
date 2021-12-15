@@ -1,12 +1,9 @@
-package de.holhar.spring.soap.client;
+package de.holhar.spring.patterns.soap.client;
 
-import de.holhar.spring.soap.ws.Movie;
-import de.holhar.spring.soap.ws.ObjectFactory;
-import de.holhar.spring.soap.ws.UID;
-import org.springframework.cache.annotation.Cacheable;
+import de.holhar.spring.patterns.soap.ws.Movie;
+import de.holhar.spring.patterns.soap.ws.ObjectFactory;
+import de.holhar.spring.patterns.soap.ws.UID;
 import org.springframework.stereotype.Component;
-import org.springframework.util.StopWatch;
-import org.springframework.ws.soap.client.SoapFaultClientException;
 
 import javax.xml.bind.JAXBElement;
 

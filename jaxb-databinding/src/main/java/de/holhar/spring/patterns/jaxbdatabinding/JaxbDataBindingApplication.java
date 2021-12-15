@@ -1,4 +1,4 @@
-package de.holhar.spring.jaxbdatabinding;
+package de.holhar.spring.patterns.jaxbdatabinding;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

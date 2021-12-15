@@ -1,4 +1,4 @@
-package de.holhar.spring.soap;
+package de.holhar.spring.patterns.soap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

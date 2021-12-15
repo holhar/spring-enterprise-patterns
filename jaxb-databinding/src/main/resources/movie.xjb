@@ -9,7 +9,7 @@
         <xjc:javaType
                 name="java.lang.String"
                 xmlType="xs:string"
-                adapter="de.holhar.spring.jaxbdatabinding.xml.adapter.CustomNormalizedStringAdapter"/>
+                adapter="de.holhar.spring.patterns.jaxbdatabinding.xml.adapter.CustomNormalizedStringAdapter"/>
     </jxb:globalBindings>
     <!--
     <jxb:bindings schemaLocation="movie.xsd">

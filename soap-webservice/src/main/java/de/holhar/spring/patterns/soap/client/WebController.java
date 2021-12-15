@@ -1,6 +1,6 @@
-package de.holhar.spring.soap.client;
+package de.holhar.spring.patterns.soap.client;
 
-import de.holhar.spring.soap.ws.Movie;
+import de.holhar.spring.patterns.soap.ws.Movie;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

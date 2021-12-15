@@ -1,4 +1,4 @@
-package de.holhar.spring.soap.client;
+package de.holhar.spring.patterns.soap.client;
 
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 import org.springframework.ws.transport.context.TransportContext;
