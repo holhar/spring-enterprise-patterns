@@ -14,6 +14,7 @@
         <module>oauth2-client</module>
         <module>oauth2-resourceserver</module>
         <module>oidc</module>
+        <module>elasticsearch</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
